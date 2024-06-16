@@ -12,6 +12,41 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
+                            name: "Ayasofya",
+                            cityName: "İstanbul",
+                            coordinates: CLLocationCoordinate2D(latitude: 41.0086, longitude: 28.9802),
+                            description: "Hagia Sophia, located in Istanbul, is a historic mosque and former Greek Orthodox Christian patriarchal cathedral. It later served as the main mosque of the Ottoman Empire.",
+                            imageNames: [
+                                "istanbul-ayasofya-1",
+                                "istanbul-ayasofya-2",
+                                "istanbul-ayasofya-3",
+                            ],
+                            link: "https://tr.wikipedia.org/wiki/Ayasofya"),
+                        Location(
+                            name: "Topkapı Sarayı",
+                            cityName: "İstanbul",
+                            coordinates: CLLocationCoordinate2D(latitude: 41.0115, longitude: 28.9833),
+                            description: "Topkapı Palace, located in Istanbul, is a large museum. It served as the main residence and administrative headquarters of the Ottoman sultans during the 15th and 16th centuries.",
+                            imageNames: [
+                                "istanbul-topkapipalace-1",
+                                "istanbul-topkapipalace-2",
+                                "istanbul-topkapipalace-3",
+                            ],
+                            link: "https://en.wikipedia.org/wiki/Topkapı_Palace"),
+                        
+                        Location(
+                            name: "Yerebatan Sarnıcı",
+                            cityName: "İstanbul",
+                            coordinates: CLLocationCoordinate2D(latitude: 41.0083, longitude: 28.9770),
+                            description: "The Basilica Cistern, located in Istanbul, is the largest of several hundred ancient cisterns that lie beneath the city.",
+                            imageNames: [
+                                "istanbul-basilicacistern-1",
+                                "istanbul-basilicacistern-2",
+                                "istanbul-basilicacistern-3",
+                            ],
+                            link: "https://en.wikipedia.org/wiki/Basilica_Cistern"),
+        
+        Location(
             name: "Colosseum",
             cityName: "Rome",
             coordinates: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922),
@@ -65,6 +100,10 @@ class LocationsDataService {
                 "paris-louvre-3",
             ],
             link: "https://en.wikipedia.org/wiki/Louvre"),
+        
+        
+       
+              
     ]
     
 }

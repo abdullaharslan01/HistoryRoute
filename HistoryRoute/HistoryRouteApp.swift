@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct HistoryRouteApp: App {
+    
+    @StateObject private var vm = LocationsViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationView()
+                .environmentObject(vm)
         }
     }
 }
