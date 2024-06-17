@@ -15,7 +15,7 @@ class LocationsDataService {
                             name: "Ayasofya",
                             cityName: "İstanbul",
                             coordinates: CLLocationCoordinate2D(latitude: 41.0086, longitude: 28.9802),
-                            description: "Hagia Sophia, located in Istanbul, is a historic mosque and former Greek Orthodox Christian patriarchal cathedral. It later served as the main mosque of the Ottoman Empire.",
+                            description: "Ayasofya located in Istanbul, is a historic mosque and former Greek Orthodox Christian patriarchal cathedral. It later served as the main mosque of the Ottoman Empire.",
                             imageNames: [
                                 "istanbul-ayasofya-1",
                                 "istanbul-ayasofya-2",
